@@ -4,7 +4,7 @@
  лучше обойтись исключительно массивами. */
 
 
-void SecondArrayWithIF(string[] array1, string[] array2)
+void SecondArray(string[] array1, string[] array2)
 {
     int count = 0;
     for (int i = 0; i < array1.Length; i++)
@@ -34,5 +34,5 @@ Console.WriteLine("Начальный массив: ");
 PrintArray(array1);
 Console.WriteLine();
 Console.WriteLine("Конечный массив: ");
-SecondArrayWithIF(array1, array2);
+SecondArray(array1, array2);
 PrintArray(array2);
