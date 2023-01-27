@@ -27,3 +27,12 @@ void PrintArray(string[] array)
     Console.WriteLine();
 }
 
+Console.Clear();
+string[] array1 = new string[5] {"hello", "world", "123", "yes", "no"};
+string[] array2 = new string[array1.Length];
+Console.WriteLine("Начальный массив: ");
+PrintArray(array1);
+Console.WriteLine();
+Console.WriteLine("Конечный массив: ");
+SecondArrayWithIF(array1, array2);
+PrintArray(array2);
